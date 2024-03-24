@@ -10,14 +10,12 @@
     margin-top: 40px;
     margin-left: 60px;
 }
-
 .formacao-text {
     margin-top: 60px;
 }
 .formacao-text p span {
     color: #52F085;
 }
-
 @media (max-width: 600px) {
     .sobremim {
         margin-top: 50px;
