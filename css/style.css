@@ -1,0 +1,22 @@
+/* ---------- CONTATO ---------- */
+@import "../css/contato/contato.css";
+@import "../css/contato/formulario.css";
+
+/* ---------- INTRODUÇÃO ---------- */
+@import "../css/introducao/header.css";
+@import "../css/introducao/introducao.css";
+@import "../css/introducao/footer.css";
+
+/* ---------- SOBRE ---------- */
+@import "../css/sobremim/sobre.css";
+
+/* ---------- PROJETOS/SKILLS ---------- */
+@import "../css/projetos/projetos.css";
+@import "../css/projetos/tecnologias.css";
+
+
+/* ---------- GLOBAL ---------- */
+@import "./global/global.css";
+
+/* ---------- COMPONENTES ---------- */
+@import "./utilidades/componentes.css";

@@ -1,0 +1,55 @@
+.tecnologias {
+    padding-bottom: 60px;
+}
+.tecnologias h2 {
+    font-size: 32px;
+    color: #fff;
+}
+.tecnologias .style {
+    text-decoration: line-through;
+    text-decoration-thickness: 1.5px;
+}
+.tecnologias-icons {
+    display: flex;
+    margin-top: 40px;
+    gap: 40px;
+}
+.tecnologias-icons img {
+    width: 80px;
+    height: 80px;
+}
+.tecnologias-icons span {
+    max-width: 100px;
+    justify-content: center;
+    display: flex;
+    color: #fff;
+}
+.tecnologias-icons img {
+    width: 100px;
+    height: 100px;
+}
+
+@media (max-width: 600px) {
+    .tecnologias h2 {
+        font-size: 22px;
+        text-align: center;
+    }
+    .tecnologias-icons {
+        justify-content: center;
+        display: flex;
+    }
+    .tecnologias-icons img {
+        width: 60px;
+        height: 60px;
+    }
+    .tecnologias-icons span {
+        font-size: 12px;
+    }
+    .tecnologias-icons .js,
+    .tecnologias-icons .css,
+    .tecnologias-icons .html {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+}

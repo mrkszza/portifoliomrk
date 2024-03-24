@@ -1,0 +1,90 @@
+.introducao-bg {
+  background-color: #222;
+  box-shadow: inset 0 -180px #fff;
+}
+.introducao {
+  display: grid;
+  grid-template-columns: 5fr 7fr;
+  gap: 0 40px;
+  height: 600px;
+}
+.introducao-conteudo {
+  align-self: end;
+  padding-bottom: 200px;
+  font-family: "JetBrains Mono", sans-serif;
+  color: #fff;
+  text-align: end;
+  margin-bottom: 50px;
+}
+.introducao-conteudo h1 {
+  font-size: 59px;
+  line-height: 65px;
+}
+.introducao-conteudo h2 {
+  line-height: 35px;
+  font-size: 38px;
+}
+.introducao-conteudo p {
+  font-size: 18px;
+}
+.introducao-mrk {
+  justify-self: end;
+  align-self: end;
+}
+.introducao img {
+  width: 400px;
+  height: 400px;
+  border-radius: 50%;
+  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.3);
+}
+
+@media (max-width: 1200px) {
+  .introducao-conteudo h1 {
+    font-size: 42px;
+  }
+  .introducao-conteudo h2 {
+    font-size: 32px;
+  }
+}
+@media (max-width: 900px) {
+  .introducao-conteudo h1 {
+    font-size: 38px;
+  }
+  .introducao-conteudo h2 {
+    font-size: 32px;
+  }
+}
+@media (max-width: 820px) {
+  .introducao-conteudo h1 {
+    font-size: 32px;
+  }
+  .introducao-conteudo h2 {
+    line-height: 16px;
+    font-size: 26px;
+  }
+  .introducao-conteudo p {
+    font-size: 16px;
+  }
+}
+@media (max-width: 600px) {
+  .introducao {
+    height: 400px;
+  }
+  .introducao-conteudo {
+    align-self: center;
+    text-align: start;
+    padding: 0;
+  }
+  .introducao-conteudo h1 {
+    font-size: 38px;
+  }
+  .introducao {
+    grid-template-columns: 1fr;
+  }
+  .introducao-mrk {
+    display: none;
+  }
+  .introducao-bg {
+    box-shadow: none;
+  }
+}

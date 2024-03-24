@@ -1,0 +1,53 @@
+.contato-formulario {
+  padding-top: 60px;
+  padding-bottom: 60px;
+}
+.contato-area h2 {
+  padding-bottom: 40px;
+  font-size: 35px;
+  grid-column: 1/-1;
+}
+.form {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 20px;
+  max-width: 800px;
+}
+.form label {
+  display: block;
+  margin-bottom: 4px;
+}
+.form input[type="text"],
+.form input[type="email"],
+.form textarea {
+  background: #F7F7F7;
+  border: 1px solid #EDEDED;
+  padding: 12px;
+  border-radius: 5px;
+  width: 100%;
+  box-sizing: border-box;
+}
+.form input[type="text"]:focus,
+.form input[type="email"]:focus,
+.form textarea:focus {
+  outline: none;
+  border-color: #9C9C9C;
+  background: #fff;
+  box-shadow: 0 0 0 2px #9C9C9C;
+}
+.form .col-2 {
+  grid-column: span 2;
+}
+input::placeholder,
+textarea::placeholder {
+  font-family: "JetBrains Mono", sans-serif;
+}
+
+@media (max-width: 600px) {
+  .form {
+    grid-template-columns: 1fr;
+  }
+  .form .col-2 {
+    grid-column: 1;
+  }
+}

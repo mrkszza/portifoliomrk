@@ -1,0 +1,17 @@
+.footer-bg {
+    background: #222;
+}
+.footer {
+    padding: 15px ;
+    display: flex;
+    justify-content: space-between;
+    align-self: center;
+}
+.footer-redes {
+    display: flex;
+    gap: 20px;
+}
+.footer-redes img {
+    display: flex;
+    align-self: center;
+}
