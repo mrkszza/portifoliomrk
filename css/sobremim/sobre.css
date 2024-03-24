@@ -13,7 +13,7 @@
 .formacao-text {
     margin-top: 60px;
 }
-.formacao-text p span {
+.formacao-text .formacao-content span {
     color: #52F085;
 }
 @media (max-width: 600px) {
